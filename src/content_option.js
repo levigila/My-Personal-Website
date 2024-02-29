@@ -1,156 +1,163 @@
-const logotext = "JOHN";
+const logotext = "LEVI GILA";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Levi Gila - QA",
+    description: "Me chamo Levi Gila, sou um QA Engineer em formação e louco por Bugs ",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "Olá! Sou Levi Gila,",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "QA Engineer em formação.",
+        second: "Amo criar casos de testes",
+        third: "Posso testar sua aplicação?",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "É um prazer ter você aqui!",
+    your_img_url: "https://i.ibb.co/BrK01Fm/9248fe39-6305-4328-883b-41c21d349d19.png"
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Um pouco sobre mim",
+    aboutme: "Sou um apaixonado por tecnologia e um entusiasta em formação que almeja se tornar um Quality Assurance (QA) Engineer. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas no programa Embarque Digital do Porto Digital, em Recife, Brasil.",
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Tester Freelancer",
+        where: "uTest - The Professional Network for Testers",
+        date: "2024 - Atualmente",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Estágio Data Cleaning",
+        where: "Level Group | Supply Chain: Consultoria, tecnologia e serviços ",
+        date: "2022 - 2023",
     },
 ];
 
 const skills = [{
-        name: "Python",
-        value: 90,
+        name: "Cypress",
+        value: 50,
     },
     {
-        name: "Djano",
-        value: 85,
+        name: "PyTest",
+        value: 40,
     },
     {
-        name: "Javascript",
-        value: 80,
+        name: "JUnit",
+        value: 40,
     },
     {
-        name: "React",
+        name: "Java",
         value: 60,
     },
     {
-        name: "Jquery",
-        value: 85,
+        name: "JavaScript",
+        value: 20,
+    },
+    {
+        name: "Python",
+        value: 40,
+    },
+    {
+        name: "Angular",
+        value: 50,
+    },
+    {
+        name: "SpringBoot",
+        value: 50,
+    },
+    {
+        name: "MySQL",
+        value: 40,
+    },
+    {
+        name: "Swagger",
+        value: 40,
+    },
+    {
+        name: "Postgres",
+        value: 40,
+    },
+    {
+        name: "HTML",
+        value: 50,
+    },
+    {
+        name: "CSS",
+        value: 50,
+    },
+    {
+        name: "Spark",
+        value: 60,
+    },
+    {
+        name: "Jupyter Notebook",
+        value: 60,
+    },
+    {
+        name: "SQL",
+        value: 60,
+    },
+    {
+        name: "Docker",
+        value: 60,
     },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Qualidade de Software",
+        description: "⬤ Documentação de Requisitos Funcionais e Não Funcionais ⬤ Testes Unitários, Testes Automatizados, Testes Manuais, Testes Funcionais e Não-Funcionais, Testes de Fumaça e Testes de Regressão ⬤ Métodos Black-box, White-box, Gray-Box e Ad-Hoc ⬤ Pirâmide de Testes, Modelo Cascata, Sprint e Shift Left Testing ⬤ Cenários e Casos de Testes ⬤ Experiência em Cypress, JUnit, PyTest, Jira e Metodologias Ágeis."
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Engenharia de Dados",
+        description: "⬤ Análises de dados e Insights de mercado ⬤ Utilização de Spark Sessions, SQL e Python na manipulação dos dados via Google Colab ⬤ Docker File e Docker Compose para trabalhar com SQL, PySpark e Python em JupyterNotebook ⬤ Experiência de Data Visualization com ApacheSuperSet e PowerBI.",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Desenvolvimento de Software",
+        description: "⬤ Desenvolvimento Back-End de uma plataforma gamificada de estudos e de gerenciamento de desempenho dos profissionais para a Accenture ⬤ Java e SpringBoot no Desenvolvimento e lógica ⬤ Swagger na Documentação ⬤ MySql no Banco de Dados ⬤ Utilização de técnicas para o desenvolvimento como Lean Canvas, Matriz CSD, Scrum, Personas, Análise de Mercado, Jornadas de Usuário e Screens Flow no Figma."
     },
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.ibb.co/GshCJgh/Searching-Magnifying-Glass-Logo-2.png", // teste automatizado
+        description: "Testes automatizados realiazados com Cypress",
+        link: "https://github.com/levigila/CypressNaPr-tica.git" , 
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.ibb.co/BfCYkkC/3.png", //teste unitário
+        description: "Teste Unitário realizado com JUnit",
+        link: "https://github.com/levigila/TestesUnitariosJUnit.git",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.ibb.co/k1dHLMT/Searching-Magnifying-Glass-Logo-3.png", // teste de aceitação
+        description: "Teste de Aceitação realizado com Cypress",
+        link: "https://github.com/levigila/cypress-buger-main.git",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.ibb.co/W6DLw67/Searching-Magnifying-Glass-Logo-4.png", // teste de sistema
+        description: "Casos de Testes - Q.A Engineer",
+        link: "https://github.com/levigila/Execucao-de-Casos-De-Testes.git",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://i.ibb.co/tckWXK5/5.png", // teste funcional
+        description: "Teste Funcional realizado com Pytest",
+        link: "https://github.com/levigila/Teste-Funcional-de-Software.git",
     },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+      
+    
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "levigila8@gmail.com",
+    YOUR_FONE: "+55 (81) 979017808",
+    description: "",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_1ccthx6",
+    YOUR_TEMPLATE_ID: "template_k25jt7o",
+    YOUR_USER_ID: "YvxC9Cmkt9m_Osuoq",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/levigila",
+    linkedin: "https://www.linkedin.com/in/levi-gila/",
 };
 export {
     meta,
